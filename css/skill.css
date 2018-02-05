@@ -1,0 +1,197 @@
+*{
+  margin: 0;
+  padding: 0;
+ }
+
+html, body{
+    width: 100%;
+    height: 100%
+    font-size: 14px;
+    background-image: url(../images/bgRest.jpg);
+    /*background-color: #0086fe;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: normal;
+    font-family: arial, sans-serif;
+    
+ }
+ #nav_wrapper{
+    height: 65px;
+    width: 610px;
+    /*background: #377D7A;*/
+    background: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    /*opacity: 0.5;*/
+
+
+
+ }
+
+ #nav_wrapper ul li{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+    padding: 10px;
+
+
+}
+
+ #nav_wrapper a{
+     color: white;
+     text-decoration: none;
+     padding: 10px;
+
+ }
+
+ #nav_wrapper ul li :hover{
+    background-color: #1aaaa1; 
+    transition: all 0.4s;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+ }
+
+.content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/demo4.jpg);
+    background-repeat: no-repeat;
+    left: 80px;
+    /*opacity: 0.7;*/
+
+}
+
+.content h1{
+    font-family: "Tw Cen MT";
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 3;
+   /* padding-right: 90px;*/
+    padding-top: 30px;
+    color: black;
+    margin-right: 120px;
+    
+}
+
+.skl h5{
+    font-family: "Tw Cen MT";
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3.3;
+    /*padding-right: 90px;*/
+    padding-top: 02px;
+    color: #ecb731;
+    /*margin-left: 358px;*/
+    margin-right: 120px;
+    margin-bottom: 5px;
+    
+}
+
+.skillsBox1{
+    /*position: relative;*/
+    width: 500px;
+    padding: 50px;
+    /*margin: 100px auto;*/
+    margin-right: 150px;
+    margin-top: 2px;
+    float: left;
+}
+
+.skillsBox1 h1{
+    margin: 0 0 1px;
+    padding: 0;
+    color: white;
+    font-size: 35px;
+}
+
+
+.skillsBox2{
+    /*position: relative;*/
+    width: 500px;
+    padding: 50px;
+    /*margin: 100px auto;*/
+    margin-right: 150px;
+    margin-top: 2px;
+    float: right;
+    /*margin-bottom: 500px*/
+}
+
+.skillsBox2 h1{
+    margin: 0 0 1px;
+    padding: 0;
+    color: white;
+    font-size: 35px;
+}
+
+.skills{
+    position: relative;
+    width: 100%
+    margin-bottom: 15px;
+}
+
+.skills h2
+{
+   /* margin: 5px 0 0;*/
+   margin-top: 30px;
+    padding: 0;
+    font-size: 17px;
+    color: white;
+}
+
+.progress{
+    width: 95%;
+    height: 15px;
+    border-radius: 3px;
+    border: 2px solid white;
+    line-height: 22px;
+    color: white;
+    overflow: hidden;
+    margin-top: 15px;
+    
+   /* background-color: #f2f2f2;*/
+    /*margin-bottom: 0!important;*/
+
+}
+.percent
+{
+    background: #0093ff;
+    width: 100%;
+    height: 20px;
+
+
+}
+.progress .percent{
+
+    text-align: right;
+    color: white;
+    padding-right: 10px;
+    border-right: 2px solid white;
+    animation: animate .9s linear infinite;
+    /*background: linear-gradient(45deg, rgba(255,255,255,.25)25%,
+                transparent 25%,transparent 50%, rgba(255,255,255,.25)50%,
+                rgba(255,255,255,.25)75%, transparent);
+    background: linear-gradient(45deg, rgba(95, 178, 252, 1)25%,
+                transparent 25%,transparent 50%, rgba(95, 178, 252, 1)50%,
+                rgba(95, 178, 252, 1)75%, transparent);*/
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%,
+    transparent 25%, transparent 50%,
+    rgba(255, 255, 255, .15) 50%,
+    rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-size: 20px 20px;
+}
+
+@keyframes animate{
+
+0%
+{
+    background-position: 0 0;
+
+}
+100%
+{
+    background-position: 20px 0px;
+}
+
+}
